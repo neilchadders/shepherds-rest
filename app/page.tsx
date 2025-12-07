@@ -11,7 +11,7 @@ export default function Home() {
           }}
         >
           {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-gradient-radial from-black/70 via-black/50 to-black/10"></div>
+          <div className="absolute inset-0 bg-gradient-radial from-black/95 via-black/60 to-black/0"></div>
         </div>
 
         {/* Content */}
@@ -21,7 +21,7 @@ export default function Home() {
             <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-white flex items-center justify-center">
      
     <img 
-      src="/images/shepherds-crook1.svg" 
+      src="/images/shepherds-crook2.svg" 
       alt="Shepherd's Rest Logo" 
       className="w-10 h-10 md:w-12 md:h-12"
     />
