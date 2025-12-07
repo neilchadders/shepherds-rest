@@ -19,3 +19,17 @@ body {
   color: var(--foreground);
   font-family: AbeeZee, Arial, Helvetica, sans-serif;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomSlow {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+.animate-zoomSlow {
+  animation: zoomSlow 5s ease-out forwards;
+}
