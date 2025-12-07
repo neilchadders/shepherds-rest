@@ -15,7 +15,7 @@ export default function Home() {
   <div className="absolute inset-0 bg-black animate-bgDarkFade"></div>
 
   {/* Vignette Overlay */}
-  <div className="absolute inset-0 bg-gradient-radial from-black/95 via-black/60 to-black/0"></div>
+  <div className="absolute inset-0 bg-gradient-radial from-black/65 via-black/60 to-black/0"></div>
 </div>
 
 
